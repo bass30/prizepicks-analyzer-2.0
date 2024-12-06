@@ -1,0 +1,27 @@
+.result-card {
+    @apply bg-gray-50 p-4 rounded-lg border border-gray-200;
+}
+
+.result-item {
+    @apply flex justify-between items-center py-2;
+}
+
+.result-label {
+    @apply text-gray-600 font-medium;
+}
+
+.result-value {
+    @apply text-gray-800 font-bold;
+}
+
+.recommendation {
+    @apply mt-4 text-center py-2 px-4 rounded-lg font-bold;
+}
+
+.recommendation.over {
+    @apply bg-green-100 text-green-800;
+}
+
+.recommendation.under {
+    @apply bg-red-100 text-red-800;
+}
